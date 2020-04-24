@@ -1,7 +1,5 @@
 package Problems;
 
-import java.math.BigInteger;
-
 public class Lattice {
 	
 	private static final int dim = 3;
