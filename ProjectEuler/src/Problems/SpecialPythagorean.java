@@ -12,8 +12,7 @@ package Problems;
 public class SpecialPythagorean {
 	
 	public static void main(String[] args) {
-		
-		boolean found = false;
+
 		for(int i = 1; i < 1000; i++) {
 			System.out.println(i);
 			for(int j = i; j < 1000; j++) {
