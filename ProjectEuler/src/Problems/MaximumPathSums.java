@@ -45,6 +45,7 @@ public class MaximumPathSums {
 		int[] vals = new int[ROWS*(ROWS + 1)/2];
 		
 		File f = new File("C:\\Users\\tonbo\\Documents\\sumtree2.txt");
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(f);
 		
 		for(int i = 0; i < vals.length; i++) {
